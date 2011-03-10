@@ -24,6 +24,7 @@ namespace SQLGenerator
                 textBox4.Text = openFileDialog1.FileName;
             }
             _results = new StringBuilder();
+            MessageBox.Show("Zmiana!");
         }
 
         private void button2_Click(object sender, EventArgs e)
